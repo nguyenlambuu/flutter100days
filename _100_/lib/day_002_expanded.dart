@@ -12,7 +12,11 @@ class Day2Expanded extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Expanded"),
-        actions: [HelpIconButton(url: '')],
+        actions: [
+          HelpIconButton(
+              url:
+                  'https://api.flutter.dev/flutter/widgets/Expanded-class.html')
+        ],
       ),
       body: SafeArea(
         child: Container(
