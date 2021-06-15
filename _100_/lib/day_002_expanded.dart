@@ -1,11 +1,19 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'components/demo_container.dart';
 import 'components/help_icon_button.dart';
 
-class Day2Expanded extends StatelessWidget {
+class Day2Expanded extends StatefulWidget {
+  @override
+  _Day2ExpandedState createState() => _Day2ExpandedState();
+}
+
+class _Day2ExpandedState extends State<Day2Expanded> {
+  bool isExpaned = false;
+
   @override
   Widget build(BuildContext context) {
-    bool _isExpanded = true;
     final double _width = MediaQuery.of(context).size.width;
     final double _height = MediaQuery.of(context).size.height;
 
@@ -19,58 +27,70 @@ class Day2Expanded extends StatelessWidget {
         ],
       ),
       body: SafeArea(
-        child: Container(
-          child: _isExpanded
-              ? buildLayoutWithExpanded()
-              : buildLayoutWithOutExpaned(_width, _height),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: [
+            ListTile(
+              title: Text('Switch to see Wrap effect'),
+              subtitle: isExpaned
+                  ? Text('Layout with Expanded widget')
+                  : Text('Layout without Expanded widget'),
+              trailing: CupertinoSwitch(
+                value: isExpaned,
+                onChanged: (bool value) {
+                  setState(() {
+                    isExpaned = value;
+                  });
+                },
+              ),
+            ),
+            isExpaned
+                ? buildLayoutWithExpanded(_width, _height)
+                : buildLayoutWithOutExpaned(_width, _height),
+          ],
         ),
       ),
     );
   }
 
-  Column buildLayoutWithExpanded() {
+  Column buildLayoutWithExpanded(double _width, double _height) {
     return Column(
       children: [
-        Expanded(
-          flex: 3,
-          child: Container(
-            color: Colors.deepOrange,
-          ),
-        ),
-        Expanded(
-          flex: 1,
-          child: Container(
-            color: Colors.deepPurple,
-          ),
-        ),
-        Expanded(
-          flex: 1,
-          child: Container(
-            color: Colors.pinkAccent,
-          ),
-        )
+        buildExpanded(3, _width, Colors.deepOrange),
+        buildExpanded(1, _width, Colors.deepPurple),
+        buildExpanded(1, _width, Colors.pinkAccent),
       ],
+    );
+  }
+
+  Expanded buildExpanded(int flex, double width, Color color) {
+    return Expanded(
+      flex: flex,
+      child: DemoContainer(
+        width: width,
+        color: color,
+      ),
     );
   }
 
   Column buildLayoutWithOutExpaned(double _width, double _height) {
     return Column(
       children: [
-        Container(
+        DemoContainer(
           width: _width,
-          height: _height * .3,
+          height: _height * .5,
           color: Colors.redAccent,
         ),
-        Container(
+        DemoContainer(
           width: _width,
-          height: _height * .1,
+          height: _height * .3,
           color: Colors.greenAccent,
         ),
-        Container(
+        DemoContainer(
           width: _width,
-          height: _height * .1,
+          height: _height * .2,
           color: Colors.blueAccent,
-        )
+        ),
       ],
     );
   }
