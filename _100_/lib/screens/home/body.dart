@@ -9,7 +9,6 @@ class Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List _listTitle = ["SafeArea", "Expanded", "Wrap"];
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -17,11 +16,11 @@ class Body extends StatelessWidget {
           child: GridView.count(
             crossAxisCount: 2,
             children: List.generate(
-              _listTitle.length,
+              titles.length,
               (index) => MyCustomCard(
-                title: _listTitle[index],
+                title: titles[index],
                 index: index,
-                press: () => Get.to(routes[_listTitle[index]]),
+                press: () => Get.to(routes[titles[index]]),
               ),
             ),
           ),
