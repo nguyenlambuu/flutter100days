@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'components/demo_container.dart';
-import 'components/help_icon_button.dart';
+import '../components/demo_container.dart';
+import '../components/help_icon_button.dart';
 
 class Day1SafeArea extends StatelessWidget {
   const Day1SafeArea({Key? key}) : super(key: key);

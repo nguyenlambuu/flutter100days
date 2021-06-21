@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'components/help_icon_button.dart';
-import 'components/demo_container.dart';
+import '../components/help_icon_button.dart';
+import '../components/demo_container.dart';
 
 class Day3Wrap extends StatefulWidget {
   const Day3Wrap({Key? key}) : super(key: key);

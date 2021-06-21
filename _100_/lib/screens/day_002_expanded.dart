@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'components/demo_container.dart';
-import 'components/help_icon_button.dart';
+import '../components/demo_container.dart';
+import '../components/help_icon_button.dart';
 
 class Day2Expanded extends StatefulWidget {
   @override
