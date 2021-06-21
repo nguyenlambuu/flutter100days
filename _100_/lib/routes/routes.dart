@@ -3,13 +3,15 @@ import '../screens/day_002_expanded.dart';
 import '../screens/day_003_wrap.dart';
 import '../screens/day_004_animated_container.dart';
 import '../screens/day_005_opacity.dart';
+import '../screens/day_006_future_builder.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
   "Expanded": Day2Expanded(),
   "Wrap": Day3Wrap(),
   "AnimatedContainer": Day4AnimatedContainer(),
-  "Opacity": Day5Opacity()
+  "Opacity": Day5Opacity(),
+  "Future Builder": Day6FutureBuilder()
 };
 
 get routes {
