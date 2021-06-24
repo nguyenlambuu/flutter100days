@@ -4,6 +4,7 @@ import '../screens/day_003_wrap.dart';
 import '../screens/day_004_animated_container.dart';
 import '../screens/day_005_opacity.dart';
 import '../screens/day_006_future_builder.dart';
+import '../screens/day_007_animation_controller.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -11,7 +12,8 @@ Map _routes = {
   "Wrap": Day3Wrap(),
   "AnimatedContainer": Day4AnimatedContainer(),
   "Opacity": Day5Opacity(),
-  "Future Builder": Day6FutureBuilder()
+  "FutureBuilder": Day6FutureBuilder(),
+  "AnimationController": Day7AnimationController(),
 };
 
 get routes {
