@@ -5,6 +5,7 @@ import '../screens/day_004_animated_container.dart';
 import '../screens/day_005_opacity.dart';
 import '../screens/day_006_future_builder.dart';
 import '../screens/day_007_animation_controller.dart';
+import '../screens/day_008_floating_action_button.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -14,6 +15,7 @@ Map _routes = {
   "Opacity": Day5Opacity(),
   "FutureBuilder": Day6FutureBuilder(),
   "AnimationController": Day7AnimationController(),
+  "FloatingActionButton": Day8FloatingActionButton(),
 };
 
 get routes {
