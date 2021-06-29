@@ -8,7 +8,8 @@ import '../screens/day_007_animation_controller.dart';
 import '../screens/day_008_floating_action_button.dart';
 import '../screens/day_009_page_view.dart';
 import '../screens/day_010_table.dart';
-import '../screens/day_011_sliver.dart';
+import '../screens/day_011_sliver_app_bar.dart';
+import '../screens/day_012_sliver_grid.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -22,6 +23,7 @@ Map _routes = {
   "PageView": Day9PageView(),
   "Table": Day10Table(),
   "SliverAppBar": Day11SliverAppBar(),
+  "SliverGrid": Day12SliverGrid(),
 };
 
 get routes {
