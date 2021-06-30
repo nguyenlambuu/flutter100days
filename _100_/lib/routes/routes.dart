@@ -10,6 +10,7 @@ import '../screens/day_009_page_view.dart';
 import '../screens/day_010_table.dart';
 import '../screens/day_011_sliver_app_bar.dart';
 import '../screens/day_012_sliver_grid.dart';
+import '../screens/day_013_fade_in_image.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -24,6 +25,7 @@ Map _routes = {
   "Table": Day10Table(),
   "SliverAppBar": Day11SliverAppBar(),
   "SliverGrid": Day12SliverGrid(),
+  "FadeInImage": Day13FadeInImage(),
 };
 
 get routes {
