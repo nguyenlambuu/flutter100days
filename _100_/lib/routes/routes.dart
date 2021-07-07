@@ -13,6 +13,7 @@ import '../screens/day_012_sliver_grid.dart';
 import '../screens/day_013_fade_in_image.dart';
 import '../screens/day_014_stream_builder.dart';
 import '../screens/day_015_inherited_widget.dart';
+import '../screens/day_016_clip_r_rect.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -30,6 +31,7 @@ Map _routes = {
   "FadeInImage": Day13FadeInImage(),
   "StreamBuilder": Day14StreamBuilder(),
   "InheritedWidget": Day15InheritedWidget(),
+  "ClipRRect": Day16ClipRRect(),
 };
 
 get routes {
