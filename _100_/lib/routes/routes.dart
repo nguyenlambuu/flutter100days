@@ -16,6 +16,7 @@ import '../screens/day_015_inherited_widget.dart';
 import '../screens/day_016_clip_r_rect.dart';
 import '../screens/day_017_hero.dart';
 import '../screens/day_018_custom_paint.dart';
+import '../screens/day_019_tooltip.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -36,6 +37,7 @@ Map _routes = {
   "ClipRRect": Day16ClipRRect(),
   "Hero": Day17Hero(),
   "CustomPaint": Day18CustomPaint(),
+  "Tooltip": Day19Tooltip(),
 };
 
 get routes {
