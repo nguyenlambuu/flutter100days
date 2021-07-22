@@ -18,6 +18,7 @@ import '../screens/day_017_hero.dart';
 import '../screens/day_018_custom_paint.dart';
 import '../screens/day_019_tooltip.dart';
 import '../screens/day_020_fitted_box.dart';
+import '../screens/day_021_layout_builder.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -40,6 +41,7 @@ Map _routes = {
   "CustomPaint": Day18CustomPaint(),
   "Tooltip": Day19Tooltip(),
   "FittexBox": Day20FittedBox(),
+  "LayoutBuilder": Day21LayoutBuilder(),
 };
 
 get routes {
