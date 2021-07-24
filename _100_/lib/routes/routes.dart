@@ -20,6 +20,7 @@ import '../screens/day_019_tooltip.dart';
 import '../screens/day_020_fitted_box.dart';
 import '../screens/day_021_layout_builder.dart';
 import '../screens/day_022_absorb_pointer.dart';
+import '../screens/day_023_transform.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -44,6 +45,7 @@ Map _routes = {
   "FittexBox": Day20FittedBox(),
   "LayoutBuilder": Day21LayoutBuilder(),
   "AbsorbPointer": Day22AbsorbPointer(),
+  "Transform": Day23Transform(),
 };
 
 get routes {
