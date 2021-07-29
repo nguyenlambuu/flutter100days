@@ -23,6 +23,7 @@ import '../screens/day_022_absorb_pointer.dart';
 import '../screens/day_023_transform.dart';
 import '../screens/day_024_backdrop_filter.dart';
 import '../screens/day_025_align.dart';
+import '../screens/day_026_positioned.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -50,6 +51,7 @@ Map _routes = {
   "Transform": Day23Transform(),
   "BackdropFilter": Day24BackdropFilter(),
   "Align": Day25Align(),
+  "Positioned": Day26Positioned(),
 };
 
 get routes {
