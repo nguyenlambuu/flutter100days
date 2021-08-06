@@ -29,6 +29,7 @@ import '../screens/day_028_dismissible.dart';
 import '../screens/day_029_sizedbox.dart';
 import '../screens/day_030_value_listenable_builder.dart';
 import '../screens/day_031_draggable.dart';
+import '../screens/day_032_animated_list.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -62,6 +63,7 @@ Map _routes = {
   "SizedBox": Day29SizedBox(),
   "ValueListenableBuilder": Day30ValueListenableBuilder(),
   "Draggable": Day31Draggable(),
+  "AnimatedList": Day32AnimatedList(),
 };
 
 get routes {
