@@ -31,6 +31,7 @@ import '../screens/day_030_value_listenable_builder.dart';
 import '../screens/day_031_draggable.dart';
 import '../screens/day_032_animated_list.dart';
 import '../screens/day_033_flexible.dart';
+import '../screens/day_034_media_query.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -66,6 +67,7 @@ Map _routes = {
   "Draggable": Day31Draggable(),
   "AnimatedList": Day32AnimatedList(),
   "Flexible": Day33Flexible(),
+  "MediaQuery": Day34MediaQuery(),
 };
 
 get routes {

@@ -17,7 +17,7 @@ class _Day33FlexibleState extends State<Day33Flexible> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Animated List'),
+        title: Text('Flexible'),
         actions: [
           HelpIconButton(
               url:
