@@ -35,6 +35,7 @@ import '../screens/day_034_media_query.dart';
 import '../screens/day_035_spacer.dart';
 import '../screens/day_036_animated_icon.dart';
 import '../screens/day_037_inherited_model.dart';
+import '../screens/day_038_aspect_ratio.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -74,6 +75,7 @@ Map _routes = {
   "Spacer": Day35Spacer(),
   "AnimatedIcon": Day36AnimatedIcon(),
   "InheritedModel": Day37InheritedModel(),
+  "AspectRatio": Day38AspectRatio(),
 };
 
 get routes {
