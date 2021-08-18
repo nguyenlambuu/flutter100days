@@ -7,7 +7,7 @@ class Day40PlaceHolder extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Limited Box'),
+        title: Text('Placeholder'),
         actions: [
           HelpIconButton(
               url:
