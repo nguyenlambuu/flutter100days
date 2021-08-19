@@ -39,6 +39,7 @@ import '../screens/day_038_aspect_ratio.dart';
 import '../screens/day_039_limited_box.dart';
 import '../screens/day_040_place_holder.dart';
 import '../screens/day_041_rich_text.dart';
+import '../screens/day_042_reorderable_listview.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -82,6 +83,7 @@ Map _routes = {
   "LimitedBox": Day39LimitedBox(),
   "PlaceHolder": Day40PlaceHolder(),
   "RichText": Day41RichText(),
+  "ReOrderListView": Day42ReorderableListView(),
 };
 
 get routes {
