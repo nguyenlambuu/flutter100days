@@ -43,6 +43,7 @@ import '../screens/day_042_reorderable_listview.dart';
 import '../screens/day_043_animated_switcher.dart';
 import '../screens/day_044_animated_positioned.dart';
 import '../screens/day_045_animated_padding.dart';
+import '../screens/day_046_indexed_stack.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -90,6 +91,7 @@ Map _routes = {
   "AnimatedSwitcher": Day43AnimatedSwitcher(),
   "AnimatedPositioned": Day44AnimatedPositioned(),
   "AnimatedPadding": Day45AnimatedPadding(),
+  "IndexedStack": Day46IndexedStack(),
 };
 
 get routes {
