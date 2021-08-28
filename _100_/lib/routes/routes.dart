@@ -46,6 +46,7 @@ import '../screens/day_045_animated_padding.dart';
 import '../screens/day_046_indexed_stack.dart';
 import '../screens/day_047_semantics.dart';
 import '../screens/day_048_box_constraints.dart';
+import '../screens/day_049_stack.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -96,6 +97,7 @@ Map _routes = {
   "IndexedStack": Day46IndexedStack(),
   "Semantics": Day47Semantics(),
   "BoxConstraints": Day48BoxConstraints(),
+  "Stack": Day49Stack(),
 };
 
 get routes {
