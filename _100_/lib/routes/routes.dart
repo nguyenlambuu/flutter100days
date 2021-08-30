@@ -47,6 +47,7 @@ import '../screens/day_046_indexed_stack.dart';
 import '../screens/day_047_semantics.dart';
 import '../screens/day_048_box_constraints.dart';
 import '../screens/day_049_stack.dart';
+import '../screens/day_050_animated_opacity.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -98,6 +99,7 @@ Map _routes = {
   "Semantics": Day47Semantics(),
   "BoxConstraints": Day48BoxConstraints(),
   "Stack": Day49Stack(),
+  "AnimatedOpacity": Day50AnimatedOpacity(),
 };
 
 get routes {
