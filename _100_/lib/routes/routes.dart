@@ -49,6 +49,7 @@ import '../screens/day_048_box_constraints.dart';
 import '../screens/day_049_stack.dart';
 import '../screens/day_050_animated_opacity.dart';
 import '../screens/day_051_fractionally_sized_box.dart';
+import '../screens/day_052_list_view.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -102,6 +103,7 @@ Map _routes = {
   "Stack": Day49Stack(),
   "AnimatedOpacity": Day50AnimatedOpacity(),
   "FractionallySizedBox": Day51FractionallySizedBox(),
+  "ListView": Day52ListView(),
 };
 
 get routes {
