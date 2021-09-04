@@ -52,6 +52,7 @@ import '../screens/day_051_fractionally_sized_box.dart';
 import '../screens/day_052_list_view.dart';
 import '../screens/day_053_list_tile.dart';
 import '../screens/day_054_container.dart';
+import '../screens/day_055_selectable_text.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -108,6 +109,7 @@ Map _routes = {
   "ListView": Day52ListView(),
   "ListTile": Day53ListTile(),
   "Container": Day54Container(),
+  "SelectableText": Day55SelectableText(),
 };
 
 get routes {
