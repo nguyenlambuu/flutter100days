@@ -56,6 +56,7 @@ import '../screens/day_055_selectable_text.dart';
 import '../screens/day_056_data_table.dart';
 import '../screens/day_057_slider.dart';
 import '../screens/day_058_alert_dialog.dart';
+import '../screens/day_059_animated_cross_fade.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -116,6 +117,7 @@ Map _routes = {
   "DataTable": Day56DataTable(),
   "Slider": Day57Slider(),
   "AlertDialog": Day58AlertDialog(),
+  "AnimatedCrossFade": Day59AnimatedCrossFade(),
 };
 
 get routes {
