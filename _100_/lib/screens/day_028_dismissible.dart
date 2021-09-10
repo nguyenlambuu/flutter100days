@@ -63,7 +63,7 @@ class _Day28DismissibleState extends State<Day28Dismissible> {
 
   ScaffoldFeatureController<SnackBar, SnackBarClosedReason> buildSnackBar(
       BuildContext context, int index, Color color) {
-    return Scaffold.of(context).showSnackBar(
+    return ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         backgroundColor: color,
         content: Text("Items ${items[index]} Dismissed"),
