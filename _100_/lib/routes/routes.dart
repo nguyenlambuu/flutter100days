@@ -59,6 +59,7 @@ import '../screens/day_058_alert_dialog.dart';
 import '../screens/day_059_animated_cross_fade.dart';
 import '../screens/day_060_draggable_scrollable_sheet.dart';
 import '../screens/day_061_color_filtered.dart';
+import '../screens/day_062_toggle_button.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -122,6 +123,7 @@ Map _routes = {
   "AnimatedCrossFade": Day59AnimatedCrossFade(),
   "DraggableScrollableSheet": Day60DraggableScrollableSheet(),
   "ColorFiltered": Day61ColorFiltered(),
+  "ToggleButton": Day62ToggleButton(),
 };
 
 get routes {
