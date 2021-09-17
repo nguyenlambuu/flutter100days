@@ -60,6 +60,7 @@ import '../screens/day_059_animated_cross_fade.dart';
 import '../screens/day_060_draggable_scrollable_sheet.dart';
 import '../screens/day_061_color_filtered.dart';
 import '../screens/day_062_toggle_button.dart';
+import '../screens/day_063_cupertino_action_sheet.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -124,6 +125,7 @@ Map _routes = {
   "DraggableScrollableSheet": Day60DraggableScrollableSheet(),
   "ColorFiltered": Day61ColorFiltered(),
   "ToggleButton": Day62ToggleButton(),
+  "CupertinoActionSheet": Day63CupertinoActionSheet(),
 };
 
 get routes {
