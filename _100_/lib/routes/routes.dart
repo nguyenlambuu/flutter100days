@@ -62,6 +62,7 @@ import '../screens/day_061_color_filtered.dart';
 import '../screens/day_062_toggle_button.dart';
 import '../screens/day_063_cupertino_action_sheet.dart';
 import '../screens/day_064_tween_animation_builder.dart';
+import '../screens/day_065_image.dart';
 
 Map _routes = {
   "SafeArea": Day1SafeArea(),
@@ -128,6 +129,7 @@ Map _routes = {
   "ToggleButton": Day62ToggleButton(),
   "CupertinoActionSheet": Day63CupertinoActionSheet(),
   "TweenAnimationBuilder": Day64TweenAnimationBuilder(),
+  "Image": Day65Image(),
 };
 
 get routes {
